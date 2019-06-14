@@ -3,10 +3,10 @@ Description of Installing MediaWiki using Nginx and MariaDB As Korean
 우분투에 엔진엑스와 마리아디비를 통해 미디어위키 엔진을 설치하는 방법
 #Ubuntu 16.04.06
 
-apt-get install nginx //Nginx설치
-apt-get install mariadb-server//MariaDB설치
-apt-get install php5-fpm//php설치
-apt-get install php5-mysql//php와 mysql
+ apt-get install nginx //Nginx설치  
+ apt-get install mariadb-server//MariaDB설치  
+ apt-get install php5-fpm//php설치  
+ apt-get install php5-mysql//php와 mysql  
 
 sudo service nginx start || /etc/init.d/nginx start   //nginx시작
 sudo service mysql start//mysql시작
