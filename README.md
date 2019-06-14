@@ -17,6 +17,7 @@ Nginx가 잘 실행된 것을 확인할 수 있습니다.
 
 매번 이렇게 브라우저를 통해 들어가는 것이 아니더라도  
 >service nginx status나 service mysql status  
+
 를 통해 active(running)이 뜨는지 안뜨는지 확인 할 수 있습니다.  
 
 이후 mysql을 들어가서 사용자를 만들고 깔 MediaWiki의 데이터베이스로 사용 될 database를 만듭니다.  
@@ -28,6 +29,7 @@ Nginx가 잘 실행된 것을 확인할 수 있습니다.
 
 위 사이트에서 도움을 얻을 수 있는 부분은  
 >wget이다.   
+
 Ctrl+F를 눌러 wget을 찾아간다. wget부분의 명령어를 통해 ftp등을 사용하지 않고 CLI상의 Ubuntu에 파일을 다운 받을 수 있다.  
 파일을 다운 받은 후에는 나와있듯이 tar명령어를 통해 압축을 푼다. //tar는 윈도우의 Zip과 같은 압축파일임.  
 풀어진 파일은 폴더에 모아/var/www/html아래에 넣어준다. //폴더에 풀면 편함.  
